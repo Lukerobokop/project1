@@ -1,0 +1,106 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {  
+   margin: 0;  
+   padding: 0;  
+   border: 0;  
+   font-size: 100%;  
+   font: inherit;  
+   vertical-align: baseline; 
+}
+
+body {
+	height: cover;
+	background: rgb(123,0,0);
+	background: linear-gradient(180deg, rgba(123,0,0,0.9948354341736695) 35%, rgba(0,0,0,1) 100%);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 80px;
+}
+h1{
+	font-size: 250%
+}
+h2{
+	font-size: 150%
+}
+h3{
+	font-size: 75%
+}
+
+#main {
+	height: cover;
+	border: 3px solid black;
+	background-color: #fff;
+	margin: 10%;
+	padding: 2rem;
+	font-family: georgia;
+}
+
+#cliff{
+	border: 2px solid red;
+	width: 100%;
+}
+
+#statue{
+	float: left;
+	width: 55%;
+	margin-right: 7px;
+}
+
+#compare{
+	float: right;
+	width: 55%;
+	margin-left: 7px;
+}
+
+span{
+	color: red;
+}
+em{
+	font-style: italic;
+}
+p{
+	font-size: 150%
+}
+#info{
+	font-size: 100%
+}
+#img-t{
+	font-size: 200%;
+	color: white;
+}
+#div-for-tree{
+	background-image: url(../images/tree-of-death.jpg);
+	border: 2px solid red;
+	float: left;
+	background-size: cover;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 3%;
+	padding-right: 3%;
+	margin-right: 7px;
+}
+@media only screen and (max-width: 425px){
+	#statue {
+		float: none; 
+		width: 100%;
+	}
+	p {
+		font-size: 125%;
+	}
+	#compare {
+		float: none;
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 426px) and (max-width: 768px){
+	#statue {
+		float: none; 
+		width: 100%;
+	}
+	#compare {
+		float: none;
+		width: 100%;
+	}
+}	
+@media only screen and (min-width: 769px){
+	
+}
